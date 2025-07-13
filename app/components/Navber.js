@@ -1,14 +1,7 @@
 "use client";
 
 import Link from "next/link";
-
-const menuItem = [
-  { label: "HOME", href: "/" },
-  { label: "SETTING", href: "/setting" },
-  { label: "ABOUT", href: "/aout" },
-  { label: "DESHBOAD", href: "/deshboad" },
-];
-
+import { menuItem } from "@/config";
 export default function Navbar() {
   return (
     <nav className="bg-blue-600 text-white shadow-md">
